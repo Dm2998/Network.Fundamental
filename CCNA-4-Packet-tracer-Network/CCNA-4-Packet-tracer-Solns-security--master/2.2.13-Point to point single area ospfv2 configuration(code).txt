@@ -2,6 +2,15 @@
 
 Router 1 configuration
 ======================
+Router configurations for a simple OSPF (Open Shortest Path First).
+
+>The router enters privileged exec mode with en.
+>Then, it enters the global configuration mode with conf t.
+>The router sets up OSPF with process ID 10.
+>The router's OSPF router ID is set to 1.1.1.1.
+>It advertises three network segments into OSPF: 192.168.10.1/24, 10.1.1.1/30, and 10.1.1.5/30, all within OSPF Area 0.
+>The g0/0/0 interface is marked as passive for OSPF, meaning it won't participate in OSPF updates.
+
 en 						
 conf t	
 					
@@ -16,6 +25,12 @@ passive-interface g0/0/0
 
 Router 2 configuration
 ======================
+
+>Similar to Router 1, Router 2 sets up OSPF with process ID 10.
+>The router's OSPF router ID is set to 2.2.2.2.
+>Router 2 advertises three network segments into OSPF: 192.168.20.1/32, 10.1.1.2/32, and 10.1.1.9/32, all within OSPF Area 0.
+>The g0/0/0 interface is marked as passive for OSPF, meaning it won't participate in OSPF updates.
+
 en 
 conf t 
 
@@ -31,6 +46,12 @@ passive-interface g0/0/0
 
 Router 3 configuration
 ======================
+
+>Router 3 sets up OSPF with process ID 10.
+>The router's OSPF router ID is set to 3.3.3.3.
+>The g0/0/0 interface is marked as passive for OSPF.
+>Three interfaces are explicitly configured for OSPF: g0/0/0, s0/1/0, and s0/1/1, all within OSPF Area 0.
+
 en 
 conf t 
 
