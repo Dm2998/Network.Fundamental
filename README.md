@@ -5,4 +5,6 @@ Network ACL.
 
 This is some text in my README.
 
-![My Image](i.png)
+![My Image](https://phoenixnap.com/kb/wp-content/uploads/2022/04/diagram-acl-router-filtering-pnap.png)
+
+
