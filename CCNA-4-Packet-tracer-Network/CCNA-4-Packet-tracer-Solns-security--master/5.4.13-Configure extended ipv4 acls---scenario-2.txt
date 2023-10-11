@@ -23,6 +23,6 @@ deny icmp host 172.31.1.103 host 64.103.255.254
 permit ip any any						#To counter the implicit deny any any
 
 int g0/0
-ip access-group ACL in						#To apply the acl to inbound traffic
+#ip access-group ACL in						#To apply the acl to inbound traffic
 
-exit
+#exit
