@@ -1,6 +1,6 @@
 **********************5.1.8-packet-tracer---configure-numbered-standard-ipv4-acls**********************
 
-Router 2 configuration
+Router 2 configuration.
 ======================
 EN 							#To enter privileged EXEC mode.Short for "enable"
 CONF T							#To enter configuration mode.Short for "configure terminal"
@@ -12,7 +12,7 @@ int g0/0						#To enter interface configuration mode
 ip access-group 1 out					#To apply the acl for outboud traffic
 end
 
-Router 3 configuration 
+Router 3 configuration.
 ======================
 en
 conf t
