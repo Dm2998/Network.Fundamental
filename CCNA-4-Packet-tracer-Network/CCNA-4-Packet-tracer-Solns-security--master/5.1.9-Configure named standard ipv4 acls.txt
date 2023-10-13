@@ -1,7 +1,7 @@
 *********************5.1.9-packet-tracer---configure-named-standard-ipv4-acls*********************
 
 
-Router 1 configuration
+Router 1 configuration.
 ======================
 en							#To enter privileged EXEC mode.Short for "enable"
 conf t							#To enter configuration mode.Short for "configure terminal"
