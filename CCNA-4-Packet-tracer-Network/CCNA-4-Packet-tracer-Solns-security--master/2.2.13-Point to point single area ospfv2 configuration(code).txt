@@ -1,6 +1,6 @@
 *******************************2.2.13-packet-tracer---point-to-point-single-area-ospfv2-configuration*******************************
 
-Router 1 configuration.
+Router 1 configuration.//
 ======================
 Router configurations for a simple OSPF (Open Shortest Path First).
 
@@ -44,7 +44,7 @@ network 10.1.1.9 0.0.0.0 area 0
 passive-interface g0/0/0
 
 
-Router 3 configuration.
+Router 3 configuration.//
 ======================
 
 >Router 3 sets up OSPF with process ID 10.
